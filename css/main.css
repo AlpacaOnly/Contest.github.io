@@ -53,24 +53,30 @@ h3 {
   width: 50%;
 }
 
-.contest-button {
-  font-family: Poppins-Semibold;
-  float: right;
-  margin-right: 50px;
-  margin-top: 350px;
-  padding: 15px 80px 15px;
-  opacity: 0;
-  color: white;
-  font-size: 36px;
-  border: none;
-  border-radius: 5px;
-}
-
-.contest-button:hover {
-  /* background-color: #575b77; */
-  color: white;
- }
-
- .welcome-description {
+.welcome-description {
    margin-top: 100px;
  }
+
+.contest-wrapper {
+  float: right;
+  margin-top: 400px;
+  /* height: 100px; */
+  border-radius: 5px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+.contest-wrapper:hover {
+  background-color: #d8d8d8;
+}
+
+.contest {
+  float: right;
+  font-size: 48px;
+  padding: 6px 20px;
+}
+
+.contest:hover {
+  color: black;
+  cursor: pointer;
+}
