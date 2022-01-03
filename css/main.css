@@ -28,6 +28,11 @@ h3 {
   font-size: 24px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #first-section {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
@@ -87,7 +92,7 @@ h3 {
 }
 
 #second-section {
-  background-color: #F8F8F8;
+  background-color: #ededed;
 }
 
 #second-section .container {
@@ -107,7 +112,7 @@ h3 {
   width: 50%;
   padding-top: 250px;
   padding-right: 100px;
-  padding-bottom: 350px;
+  padding-bottom: 250px;
 }
 
 .about-us {
@@ -130,3 +135,24 @@ h3 {
   font-weight: 700;
   font-size: 32px;
 }
+
+#third-section {
+  text-align: center;
+}
+
+#third-section .container {
+  display: flex;
+}
+
+#third-section img {
+  width: 40%;
+  border-radius: 100%;
+}
+
+#third-section .telegram-login {
+  padding-top: 20px;
+}
+
+#third-section .telegram-picture {
+  padding-top: 50px;
+} 
