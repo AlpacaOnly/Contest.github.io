@@ -87,7 +87,7 @@ h3 {
 }
 
 #second-section {
-  background-color: #F8F8F8;
+  background-color: #ededed;
 }
 
 #second-section .container {
@@ -107,7 +107,7 @@ h3 {
   width: 50%;
   padding-top: 250px;
   padding-right: 100px;
-  padding-bottom: 350px;
+  padding-bottom: 250px;
 }
 
 .about-us {
@@ -129,4 +129,10 @@ h3 {
   float: right;
   font-weight: 700;
   font-size: 32px;
+}
+
+
+#third-section {
+  background-color: #2C272E;
+  height: 200px;
 }
