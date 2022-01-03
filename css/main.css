@@ -28,6 +28,11 @@ h3 {
   font-size: 24px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #first-section {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
@@ -131,8 +136,23 @@ h3 {
   font-size: 32px;
 }
 
-
 #third-section {
-  background-color: #2C272E;
-  height: 200px;
+  text-align: center;
 }
+
+#third-section .container {
+  display: flex;
+}
+
+#third-section img {
+  width: 40%;
+  border-radius: 100%;
+}
+
+#third-section .telegram-login {
+  padding-top: 20px;
+}
+
+#third-section .telegram-picture {
+  padding-top: 50px;
+} 
