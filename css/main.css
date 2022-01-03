@@ -79,6 +79,11 @@ h3 {
   float: right;
   font-size: 48px;
   padding: 6px 20px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .contest:hover {
@@ -114,7 +119,7 @@ h3 {
   font-family: Poppins-ExtraLight;
   font-weight: bold;
   font-size: 52px;
-  padding: 20px;  
+  padding: 20px;
 }
 
 .part1 {
