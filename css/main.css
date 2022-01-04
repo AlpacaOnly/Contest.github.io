@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: Poppins-Thin;
   src: url("../fonts/Poppins/Poppins-Thin.ttf");
@@ -11,6 +16,11 @@
 @font-face {
   font-family: Poppins-ExtraLight;
   src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: Yanone-ExtraLight;
+  src:url("../fonts/Yanone/YanoneKaffeesatz-ExtraLight.ttf");
 }
 
 body {
@@ -109,8 +119,11 @@ a {
   display: flex;
 }
 
-#second-section .container .left {
-  width: 50%;
+.second-section {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
 }
 
 #second-section .container .right {
@@ -127,12 +140,16 @@ a {
   padding: 20px;
 }
 
-.part1 {
-  margin: 0;
-  float: right;
-  font-weight: 700;
-  font-size: 32px;
+p {
+  color: #777;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  padding: 10px;
+  font-family: Yanone-ExtraLight;
+  padding-bottom: 100px;
 }
+
 
 .part2 {
   margin: 0;

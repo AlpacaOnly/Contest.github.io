@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Poppins-Thin;
+  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Semibold;
+  src: url("../fonts/Poppins/Poppins-Semibold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #082032;
+  background-image: linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 24px;
+  font-family: Poppins-Thin;
+  font-weight: 300;
+  width: 90%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 6%;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: left;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Poppins-Thin;
+}
+
+.nav-links ul li::after {
+  background: white;
+  content: '';
+  display: block;
+  height: 1px;
+  margin: auto;
+  transition: 0.5s;
+  width: 0%;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.content-table {
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  font-size: 1.5em;
+  font-family: Poppins-Thin;
+  /* margin: 25px 0px;   */
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.content-table thead tr {
+  background-color: #2C394B;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.content-table th,
+.content-table tr {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* .content-table tbody tr:nth-of-type(even) {
+  background-color: #716F81;
+} */
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 3px solid #2C394B;
+}
+
+/* .content-table tbody tr:active-row {
+  color: #2C394B;
+  font-weight: bold;
+} */
+
+.content-table tbody tr:hover {
+  background-color: #889EAF;
+}
