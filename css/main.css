@@ -171,14 +171,28 @@ a {
 
 #third-section .telegram-login {
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 #third-section .telegram-picture {
   padding-top: 50px;
+  padding-bottom: 20px;
   transition: all .4s ease;
   -webkit-transition: all .4s ease;
 }
 
 #third-section .telegram-picture:hover {
   background-color: white;
+}
+
+#third-section .email-text {
+	color: black;
+	font-weight: bold;
+}
+
+#third-section .left {
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
 }
