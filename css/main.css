@@ -38,6 +38,11 @@ h3 {
   font-size: 24px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #first-section {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
@@ -89,6 +94,11 @@ h3 {
   float: right;
   font-size: 48px;
   padding: 6px 20px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .contest:hover {
@@ -97,7 +107,7 @@ h3 {
 }
 
 #second-section {
-  background-color: #F8F8F8;
+  background-color: #ededed;
 }
 
 #second-section .container {
@@ -116,17 +126,18 @@ h3 {
   padding-top: 150px;
 }
 
-h2 {
-    font-size: 70px;
-    font-weight: 600;
-    font-family: Yanone-ExtraLight;
+#second-section .container .right {
+  width: 50%;
+  padding-top: 250px;
+  padding-right: 100px;
+  padding-bottom: 250px;
 }
 
-h4 {
-  font-size: 36px;
-  font-weight: 400;
-  font-family: Yanone-ExtraLight;
-  color:white;
+.about-us {
+  font-family: Poppins-ExtraLight;
+  font-weight: bold;
+  font-size: 52px;
+  padding: 20px;
 }
 
 p {
@@ -139,33 +150,31 @@ p {
   padding-bottom: 100px;
 }
 
-.third-section {
-  padding-bottom: 200px;
+
+.part2 {
+  margin: 0;
+  float: right;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#third-section {
   text-align: center;
 }
 
-.third-section img {
-  width: 40%;
-  border-radius: 100%;
-  padding: 100px 0px 100px;
-}
-
-.About-us {
+#third-section .container {
   display: flex;
 }
 
-.Dias {
-  background-color: #C996CC;
+#third-section img {
+  width: 40%;
+  border-radius: 100%;
 }
 
-.Ayazhan {
-  background-color: #916BBF;
+#third-section .telegram-login {
+  padding-top: 20px;
 }
 
-.Nurkhan {
-  background-color: #FF865E;
-}
-
-.Ruslan {
-  background-color: #FEF9EF;
+#third-section .telegram-picture {
+  padding-top: 50px;
 }
