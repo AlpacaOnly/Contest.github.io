@@ -125,6 +125,7 @@ nav {
 
 .content-table tbody tr:hover {
   background-color: #889EAF;
+  cursor: pointer;
 }
 
 
