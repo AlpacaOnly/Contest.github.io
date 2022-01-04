@@ -23,7 +23,6 @@ body {
 }
 
 .container {
-  background-color: #082032;
   background-image: linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
