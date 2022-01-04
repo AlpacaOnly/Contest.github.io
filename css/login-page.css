@@ -69,7 +69,7 @@ a {
   -webkit-box-orient: horizontal;
 }
 
-.log .action button {
+.log .action a {
   background: #e8e9ec;
   border: none;
   border-bottom-left-radius: 5px;
@@ -83,17 +83,17 @@ a {
   width: 100%;
 }
 
-.log .action button:hover {
+.log .action a:hover {
   background: #d7d7d7;
 }
 
-.log .action button:nth-child(2) {
+.log .action a:nth-child(2) {
   background: #2d3b55;
   color: #ffffff;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 4px;
 }
 
-.log .action button:nth-child(2):hover {
+.log .action a:nth-child(2):hover {
   background: #3c4d6d;
 }
