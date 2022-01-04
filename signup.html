@@ -7,22 +7,27 @@
     <title>Login Page</title>
   </head>
   <body>
-    <div class="page">
-      <div class="log">
+    <div class="container">
+      <div class="login-form">
         <form>
-          <h1>Login</h1>
+          <h1>Sign up</h1>
           <div class="content">
-            <div class="input">
+            <div class="input-field">
+              <input type="username" placeholder="Username" autocomplete="nope">
+            </div>
+            <div class="input-field">
               <input type="email" placeholder="Email" autocomplete="nope">
             </div>
-            <div class="input">
+            <div class="input-field">
               <input type="password" placeholder="Password" autocomplete="new-password">
             </div>
-            <a href="#" class="link">Don't remember your password?</a>
+            <div class="input-field">
+              <input type="confirm-password" placeholder="Confirm password" autocomplete="new-password">
+            </div>
           </div>
           <div class="action">
-            <a href="signup.html">Register</a>
-            <a href="tasks.html">Sign in</a>
+            <a href="login.html">Already have an account</a>
+            <a href="tasks.html">Sign up</a>
           </div>
         </form>
       </div>
