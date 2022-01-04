@@ -80,7 +80,6 @@ a {
 .contest-wrapper {
   float: right;
   margin-top: 400px;
-  /* height: 100px; */
   border-radius: 5px;
   transition: all .4s ease;
   -webkit-transition: all .4s ease;
@@ -164,6 +163,13 @@ p {
 
 #third-section .container {
   display: flex;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+#third-section .container:hover {
+  display: flex;
+  background-color: lightgray;
 }
 
 #third-section img {
@@ -177,4 +183,10 @@ p {
 
 #third-section .telegram-picture {
   padding-top: 50px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+#third-section .telegram-picture:hover {
+  background-color: white;
 }
