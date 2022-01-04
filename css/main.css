@@ -135,13 +135,6 @@ a {
   padding: 20px;
 }
 
-.contacts {
-	font-family: Poppins-ExtraLight;
-	font-weight: bold:
-	font-size: 52px;
-	padding: 20px;
-}
-
 .part1 {
   margin: 0;
   float: right;
@@ -195,4 +188,11 @@ a {
 #third-section .email-text {
 	color: black;
 	font-weight: bold;
+}
+
+#third-section .left {
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
 }
