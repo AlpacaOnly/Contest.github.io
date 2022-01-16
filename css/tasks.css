@@ -28,11 +28,16 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /* height: 100vh; */
+  height: 100vh;
   width: 100%;
   font-family: Poppins-Thin, sans-serif;
 }
 
+@media screen and ( max-height: 700px ) {
+   .custom-container{
+      height: initial;
+    }
+}
 .header {
   background-position: center;
   background-size: cover;
@@ -45,35 +50,21 @@ body {
   font-size: 24px;
   font-family: Poppins-Thin;
   text-align: center;
+  padding-top: 25px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2% 6%;
+  font-size: 24px !important;
 }
 
-.nav-links {
-  flex: 1;
-  text-align: left;
-}
-
-.nav-links ul li {
+#navbarSupportedContent ul li {
   display: inline-block;
   list-style: none;
   padding: 8px 10px;
   position: relative;
 }
 
-.nav-links ul li a {
-  padding: 8px 12px;
-  text-decoration: none;
-  font-size: 22px;
-  font-family: Poppins-Thin;
-}
-
-.nav-links ul li::after {
+#navbarSupportedContent ul li::after {
   background: white;
   content: '';
   display: block;
@@ -83,8 +74,19 @@ nav {
   width: 0%;
 }
 
-.nav-links ul li:hover::after {
+#navbarSupportedContent ul li:hover::after {
   width: 100%;
+}
+
+#navbarSupportedContent ul li:nth-child(4)::after {
+  width: 100%;
+}
+#navbarSupportedContent ul li:nth-child(4)::after {
+  content: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .table-sm {
@@ -130,15 +132,6 @@ nav {
   cursor: pointer;
 }
 
-
 .login, .sign-up {
   font-size: 24px;
-}
-
-.stick {
-  height: 25px;
-  width: 1px;
-  border-left: 1px solid white;
-  padding-left: 10px;
-  margin-left: 10px;
 }
