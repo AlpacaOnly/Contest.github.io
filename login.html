@@ -13,17 +13,25 @@
         <form>
           <h1>Login</h1>
           <div class="content">
-            <div class="input">
-              <input type="email" placeholder="Email" autocomplete="nope">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
             </div>
-            <div class="input">
-              <input type="password" placeholder="Password" autocomplete="new-password">
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">***</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
             </div>
             <a href="#" class="link">Don't remember your password?</a>
           </div>
+
           <div class="action">
-            <a href="signup.html">Register</a>
-            <a href="tasks.html">Sign in</a>
+            <a class="btn btn-primary" href="signup.html">Register</a>
+            <a class="btn btn-primary" href="tasks.html">Sign in</a>
           </div>
         </form>
       </div>
