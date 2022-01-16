@@ -26,7 +26,9 @@ body {
   background-image: linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  /* height: 100vh; */
   width: 100%;
   font-family: Poppins-Thin, sans-serif;
 }
@@ -85,7 +87,7 @@ nav {
   width: 100%;
 }
 
-.content-table {
+.table-sm {
   border-collapse: collapse;
   border-radius: 5px 5px 0 0;
   font-size: 1.5em;
@@ -96,34 +98,34 @@ nav {
   text-align: center;
 }
 
-.content-table th {
+.table-sm th {
   text-align: center;
 }
 
-.content-table tbody td {
+.table-sm tbody td {
   padding: 5px;
 }
 
-.content-table thead tr {
+.table-sm thead tr {
   background-color: #2C394B;
   font-weight: bold;
   text-align: left;
 }
 
-.content-table th,
-.content-table tr {
+.table-sm th,
+.table-sm tr {
   padding: 6px 7px;
 }
 
-.content-table tbody tr {
+.table-sm tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
-.content-table tbody tr:last-of-type {
+.table-sm tbody tr:last-of-type {
   border-bottom: 3px solid #2C394B;
 }
 
-.content-table tbody tr:hover {
+.table-sm tbody tr:hover {
   background-color: #889EAF;
   cursor: pointer;
 }
