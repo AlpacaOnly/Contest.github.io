@@ -53,7 +53,7 @@ a {
 }
 
 #first-section .container {
-  padding-top: 400px;
+  padding-top: 300px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -203,4 +203,121 @@ a {
   border-width:0;
   color:black;
   background-color:black;
+}
+
+@media screen and (max-height: 900px) {
+  #first-section .container {
+    padding-top: 250px;
+  }
+
+  .contest-wrapper {
+    margin-top: 350px;
+  }
+}
+
+@media screen and (max-height: 700px)  and (max-width: 700px) {
+  #first-section .container {
+    padding-top: 200px;
+    font-size: 22px;
+    padding-left: 100px;
+  }
+
+  .contest-wrapper {
+    margin-top: 250px;
+  }
+
+  .welcome-description {
+    margin-top: 50px;
+  }
+
+  .section-width {
+    width: 1270px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .about-us {
+    font-size: 36px;
+  }
+
+  #second-section .container .right {
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+  }
+
+  .part1,
+  .part2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-height: 500px) and (max-width: 500px) {
+  #first-section .container {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 22px;
+  }
+
+  .contest-wrapper {
+    margin-top: 150px;
+  }
+
+  .contest {
+    font-size: 24px;
+  }
+
+  .welcome-description {
+    margin-top: 25px;
+  }
+
+  .section-width {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height: 300px) and (max-width: 300px) {
+  #first-section .container {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 16px;
+  }
+
+  .contest-wrapper {
+    margin-top: 100px;
+  }
+
+  .contest {
+    font-size: 16px;
+  }
+
+  .welcome-description {
+    margin-top: 10px;
+  }
+
+  .section-width {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 }

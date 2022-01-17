@@ -18,12 +18,14 @@ a {
   background-image:linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font-family: Poppins;
   height: 100vh;
   width: 100%;
 }
 
-.log {
+.container {
   background: white;
   border-radius: 4px;
   display: flex;
@@ -31,24 +33,25 @@ a {
   margin: auto;
   position: relative;
   top: 300px;
-  width: 500px;
+  width: 500px !important;
+  padding: 0 !important;
 }
 
-.log h1 {
+.container h1 {
   font-weight: 400;
   padding: 35px 35px 0 35px;
 }
 
-.log .content {
+.container .content {
   text-align: center;
   padding: 35px;
 }
 
-.log .input {
+.container .input {
   padding: 10px 5px;
 }
 
-.log .input input {
+.container .input input {
   border: 0;
   border-bottom: 1px solid #747474;
   font-size: 15px;
@@ -58,7 +61,7 @@ a {
   width: 100%;
 }
 
-.log a.link {
+.container a.link {
   color: #6e6868;
   display: inline-block;
   margin-top: 20px;
@@ -66,8 +69,7 @@ a {
   text-decoration: none;
 }
 
-.log .action {
-  display: -webkit-box;
+.container .action {
   display: flex;
   flex-direction: row;
   -webkit-box-direction: normal;
@@ -75,7 +77,7 @@ a {
   text-align: center;
 }
 
-.log .action a {
+.container .action a {
   background: #e8e9ec;
   border: none;
   border-bottom-left-radius: 5px;
@@ -89,17 +91,42 @@ a {
   width: 100%;
 }
 
-.log .action a:hover {
+.container .action a:hover {
   background: #d7d7d7;
 }
 
-.log .action a:nth-child(2) {
+.container .action a:nth-child(2) {
   background: #2d3b55;
   color: #ffffff;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 4px;
 }
 
-.log .action a:nth-child(2):hover {
+.container .action a:nth-child(2):hover {
   background: #3c4d6d;
+}
+
+
+@media screen and ( max-height: 700px ) {
+  .log {
+    top: 150px;
+  }
+
+  .page {
+    height: initial;
+  }
+}
+
+@media screen and ( max-height: 400px ) {
+  .log {
+    top: 50px;
+  }
+}
+
+@media screen and ( max-height: 200px ) {
+  .log {
+    top: 10px;
+  }
+
+  
 }

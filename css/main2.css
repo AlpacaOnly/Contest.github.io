@@ -26,6 +26,11 @@
 body {
     font-family: Poppins-Thin;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
   
 #first-section {
     background-image: linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
@@ -70,6 +75,25 @@ body {
 #second-section .container {
     height: 50vh;
 }
+  
+#third-section .container-fluid {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+#third-section img {
+    width: 40%;
+    border-radius: 100%;
+}
+
+#third-section .container-fluid:hover {
+    background-color: lightgray;
+}
+
+.telegram-picture:hover {
+    background-color: white;
+}
+
 
 @media screen and (max-height: 900px) and (max-width: 1200px) {
     #first-section {
