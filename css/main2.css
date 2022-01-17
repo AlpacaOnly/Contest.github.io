@@ -72,8 +72,11 @@ a {
     background-color: #ededed;
 }
 
-#second-section .container {
-    height: 50vh;
+@media screen and (min-width: 800px) {
+    #second-section {
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
 }
 
 #third-section .container-fluid {
