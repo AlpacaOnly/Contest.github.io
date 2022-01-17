@@ -105,11 +105,8 @@ a {
 }
 
 .telegram-accounts {
-    /* reset container margins */
     margin-left: -12px;
     margin-right: -12px;
-
-    /* hide scrollbar */
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
