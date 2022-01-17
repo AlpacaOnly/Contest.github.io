@@ -72,10 +72,13 @@ a {
     background-color: #ededed;
 }
 
-#second-section .container {
-    height: 50vh;
+@media screen and (min-width: 800px) {
+    #second-section {
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
 }
-  
+
 #third-section .container-fluid {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
@@ -90,14 +93,57 @@ a {
     background-color: lightgray;
 }
 
+.telegram-picture {
+    flex-shrink: 0;
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .telegram-picture:hover {
     background-color: white;
 }
 
+.telegram-accounts {
+    /* reset container margins */
+    margin-left: -12px;
+    margin-right: -12px;
+
+    /* hide scrollbar */
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.telegram-accounts::-webkit-scrollbar {
+    display: none;
+}
 
 @media screen and (max-height: 900px) and (max-width: 1200px) {
     #first-section {
         height: initial;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #third-section .container-fluid {
+        flex-direction: column;
+    }
+
+    .telegram-picture {
+        flex-shrink: 0;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-us {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-us__text {
+        font-size: 18px;
     }
 }
 
