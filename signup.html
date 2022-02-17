@@ -17,39 +17,40 @@
               <div class="input-group-prepend">
                 <span class="input-group-text">Username</span>
               </div>
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" id="username">
             </div>
-            
+
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">@</span>
               </div>
               <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
             </div>
-            
+
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">***</span>
               </div>
-              <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" id="password">
             </div>
 
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">***</span>
               </div>
-              <input type="text" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="basic-addon1" id="ConfirmPassword">
             </div>
           </div>
-          
+
           <div class="action">
             <a class="btn btn-primary" href="login.html">Already have an account</a>
-            <a class="btn btn-primary" href="tasks.html">Sign up</a>
+            <a class="btn btn-primary" onclick="register()">Sign up</a>
           </div>
         </form>
       </div>
     </div>
 
     <script src="https://use.fontawesome.com/f80f2444a9.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
