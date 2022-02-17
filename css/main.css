@@ -2,12 +2,12 @@
     font-family: Poppins-Thin;
     src: url("../fonts/Poppins/Poppins-Thin.ttf");
 }
-  
+
 @font-face {
     font-family: Poppins-Semibold;
     src: url("../fonts/Poppins/Poppins-Semibold.ttf");
 }
-  
+
 @font-face {
     font-family: Poppins-ExtraLight;
     src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
 }
-  
+
 body {
     font-family: Poppins-Thin;
 }
@@ -31,7 +31,7 @@ a {
     color: inherit;
     text-decoration: none;
 }
-  
+
 #first-section {
     background-image: linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
     background-repeat: no-repeat;
@@ -116,6 +116,11 @@ a {
     display: none;
 }
 
+.map {
+  background-color: rgb(60,60,60);
+  padding: 50px;
+}
+
 @media screen and (max-height: 900px) and (max-width: 1200px) {
     #first-section {
         height: initial;
@@ -143,4 +148,3 @@ a {
         font-size: 18px;
     }
 }
-
