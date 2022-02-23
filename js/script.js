@@ -9,7 +9,10 @@ let current_times = [0, 0, 0, 0];
 let telegram_account_number =
   document.querySelectorAll(".telegram-picture").length;
 
+let is_music_play = false;
+
 function play(index) {
+  if (!is_music_play) return;
   songs[index].currentTime = current_times[index];
   songs[index].play();
 }
@@ -17,6 +20,12 @@ function play(index) {
 function pause(index) {
   songs[index].pause();
   current_times[index] = songs[index].currentTime;
+}
+
+function toggle() {
+  console.log(is_music_play);
+  is_music_play = document.querySelector("#switch-toggler").checked;
+  console.log(is_music_play);
 }
 
 for (let i = 0; i < telegram_account_number; i++) {
@@ -31,3 +40,5 @@ for (let i = 0; i < telegram_account_number; i++) {
       pause(i);
     });
 }
+
+document.querySelector("#switch-toggler").addEventListener("click", toggle);
