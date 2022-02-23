@@ -140,7 +140,7 @@ a {
     border-radius: 100%;
 }
 
-#third-section .container-fluid:hover {
+#third-section .container-fluid {
     background-color: lightgray;
 }
 
