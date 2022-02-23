@@ -38,9 +38,14 @@ body {
 
 #heading {
   font-size: 60px;
-  margin-left: 20px;
-  float: left;
+  margin-left: 100px;
   padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.content {
+  /* width: 100%; */
+  display: flex;
 }
 
 .table-hover tr {
@@ -52,9 +57,10 @@ body {
 }
 
 .datatable {
-  /* background-color: #2a2c2d; */
-  width: 80%;
-  padding-bottom: 3px;
+  background-color: #2a2c2d;
+  margin: 5px;
+  width: 70%;
+  margin-left: 100px;
 }
 
 nav {
@@ -96,10 +102,7 @@ nav {
 
 #sidebar {
   color: #e7e6e5;
-  float: right;
-  width: 20em;
-  display: inline;
-  margin: 1em 1em 1em -22em;
+  margin-left: 50px;
 }
 
 .roundbox-lt {
