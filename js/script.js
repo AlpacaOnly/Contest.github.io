@@ -41,8 +41,8 @@
 
 let songs = [
   new Audio("audio/Daydreamer.mp3"),
+  new Audio("audio/Warrior.mp3"),
   new Audio("audio/30dan-asyp-baramyn.mp3"),
-  new Audio("audio/Daydreamer.mp3"),
   new Audio("audio/Rick.mp3"),
 ];
 let current_times = [0, 0, 0, 0];
