@@ -1,0 +1,397 @@
+@font-face {
+  font-family: Poppins-Thin;
+  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Semibold;
+  src: url("../fonts/Poppins/Poppins-Semibold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-ExtraLight;
+  src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: Yanone-ExtraLight;
+  src:url("../fonts/Yanone/YanoneKaffeesatz-ExtraLight.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins-Thin;
+}
+
+h1 {
+  margin: 0;
+  font-size: 66px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#first-section {
+  background-image: linear-gradient(rgba(3, 8, 20, 0.6), rgba(3, 8, 20, 0.6)), url('../img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+#first-section .container {
+  padding-top: 300px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.section-width {
+  width: 1570px;
+}
+
+#first-section .container .left {
+  width: 50%;
+}
+
+#first-section .container .right {
+  width: 50%;
+}
+
+.welcome-description {
+   margin-top: 100px;
+ }
+
+.contest-wrapper {
+  float: right;
+  margin-top: 400px;
+  border-radius: 5px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+.contest-wrapper:hover {
+  background-color: #d8d8d8;
+}
+
+.contest {
+  font-size: 48px;
+  padding: 6px 20px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid white;
+  border-color: #d8d8d8;
+  border-radius: 5px;
+}
+
+.contest:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#second-section {
+  background-color: #ededed;
+}
+
+#second-section .container {
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+#second-section .container .left {
+  width: 50%;
+}
+
+#second-section .container .right {
+  width: 50%;
+  padding-top: 250px;
+  padding-right: 100px;
+  padding-bottom: 250px;
+}
+
+.about-us {
+  font-family: Poppins-ExtraLight;
+  font-weight: bold;
+  font-size: 52px;
+  padding: 20px;
+}
+
+.part1 {
+  margin: 0;
+  float: right;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.part2 {
+  margin: 0;
+  float: right;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#news-section {
+	background-color: #ededed
+	height: 100%;
+	width: 100%;
+	text-align: center-left;
+	box-sizing: border-box;
+}
+
+#news-section .container {
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+#news-section .container .left {
+	width: 40%;
+}
+
+.news {
+	font-family: Poppins-ExtraLight;
+	font-weight: bold;
+	font-size: 52px;
+	padding: 20px;
+}
+
+.column {
+	float: left;
+	width: 33%;
+	padding: 0 15px;
+}
+
+.row {
+  margin: 0 -25px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+a.more-news {
+	float: right;
+	margin-top: 25px;
+	font-weight: bold;
+	font-size: 28px;
+	color: white;
+	text-align: right;
+	padding: 0px 5px 0px;
+	background-color: rgba(21, 16, 25, 255);
+	border: 1px solid black;
+	border-color: black;
+	border-radius: 5px;
+}
+
+a.more-news:hover {
+	background-color: rgba(105, 80, 125, 255);
+	color: black;
+}
+
+#third-section {
+  text-align: center;
+}
+
+#third-section .custom-container {
+  display: flex;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+#third-section .custom-container:hover {
+  display: flex;
+  background-color: lightgray;
+}
+
+#third-section img {
+  width: 40%;
+  border-radius: 100%;
+}
+
+#third-section .telegram-login {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#third-section .telegram-picture {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+#third-section .telegram-picture:hover {
+  background-color: white;
+}
+
+#third-section .email-text {
+	color: black;
+	font-weight: bold;
+}
+
+#third-section .left {
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.tmp-hr {
+  margin: 0;
+  height:1px;
+  border-width:0;
+  color:black;
+  background-color:black;
+}
+
+@media screen and (max-height: 900px) {
+  #first-section .container {
+    padding-top: 250px;
+  }
+
+  .contest-wrapper {
+    margin-top: 350px;
+  }
+}
+
+@media screen and (max-height: 700px)  and (max-width: 700px) {
+  #first-section .container {
+    padding-top: 200px;
+    font-size: 22px;
+    padding-left: 100px;
+  }
+
+  .contest-wrapper {
+    margin-top: 250px;
+  }
+
+  .welcome-description {
+    margin-top: 50px;
+  }
+
+  .section-width {
+    width: 1270px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .about-us {
+    font-size: 36px;
+  }
+
+  #second-section .container .right {
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+  }
+
+  .part1,
+  .part2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-height: 500px) and (max-width: 500px) {
+  #first-section .container {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 22px;
+  }
+
+  .contest-wrapper {
+    margin-top: 150px;
+  }
+
+  .contest {
+    font-size: 24px;
+  }
+
+  .welcome-description {
+    margin-top: 25px;
+  }
+
+  .section-width {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height: 300px) and (max-width: 300px) {
+  #first-section .container {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 16px;
+  }
+
+  .contest-wrapper {
+    margin-top: 100px;
+  }
+
+  .contest {
+    font-size: 16px;
+  }
+
+  .welcome-description {
+    margin-top: 10px;
+  }
+
+  .section-width {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
