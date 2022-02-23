@@ -68,6 +68,39 @@ a {
     cursor: pointer;
 }
 
+/*
+.map-section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 10px;
+} */
+
+.map-section {
+  padding: 50px;
+}
+
+#first-map-section .left-side img {
+  /* height: 0%; */
+  margin-right: 100px;
+}
+
+#first-map-section .right-side {
+  width: 400px;
+  font-size: 24px;
+}
+
+#first-map-section h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#first-map-section .right-side p {
+  font-size: 20px;
+}
+
 #second-section {
     background-color: #ededed;
 }
