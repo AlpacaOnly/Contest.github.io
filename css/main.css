@@ -75,6 +75,7 @@ a {
   background-color: inherit;
   font-size: 24px;
   padding: 80px;
+  background-color: #f4f4f5;
 }
 
 .languages .language-title {
@@ -132,7 +133,7 @@ a {
 }
 
 #news-section {
-    background-color: lightgray;
+    background-color: #f4f4f5;
     padding: 30px;
 }
 
@@ -193,7 +194,7 @@ a {
     display: none;
 }
 
-.map {
+footer {
   background-color: rgb(60,60,60);
   padding: 50px;
 }
