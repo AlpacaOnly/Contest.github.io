@@ -63,7 +63,7 @@ function pause(index) {
 for (let i = 0; i < telegram_account_number; i++) {
   document
     .querySelectorAll(".telegram-picture")
-    [i].addEventListener("mouseover", function () {
+    [i].addEventListener("mouseenter", function () {
       play(i);
     });
   document
