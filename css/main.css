@@ -244,7 +244,7 @@ footer * {
   padding: 0 2em;
   min-height: 15em;
 }
-.footer h3 {
+footer h3 {
   width: 100%;
   text-align: left;
   color: white;
