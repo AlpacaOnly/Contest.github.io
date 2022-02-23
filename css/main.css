@@ -48,6 +48,7 @@ a {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     background-color: white;
+    margin-top: 200px;
 }
 
 .contest {
@@ -68,16 +69,6 @@ a {
     color: white;
     cursor: pointer;
 }
-
-/*
-.map-section {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 10px;
-} */
 
 .map-section {
   padding: 50px;
