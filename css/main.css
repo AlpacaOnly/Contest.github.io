@@ -101,6 +101,24 @@ a {
   font-size: 20px;
 }
 
+#second-map-section {
+    background-color: #f4f4f5;
+}
+
+#second-map-section .left-side {
+    width: 400px;
+    margin-right: 100px;
+}
+
+#second-map-section h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#second-map-section .left-side p {
+    font-size: 20px;
+}
+
 #second-section {
     background-color: #ededed;
 }
