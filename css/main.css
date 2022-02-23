@@ -48,7 +48,7 @@ a {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     background-color: white;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .contest {
@@ -75,7 +75,6 @@ a {
 }
 
 #first-map-section .left-side img {
-  /* height: 0%; */
   margin-right: 100px;
 }
 
