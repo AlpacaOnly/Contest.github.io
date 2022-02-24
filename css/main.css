@@ -405,7 +405,7 @@ div.social {
     padding: 10px;
 }
 
-.loader-wrapper, html {
+.loader-wrapper {
     height: 100vh;
     text-align: center;
     background-color: #242F3F;
@@ -472,7 +472,3 @@ div.social {
       height: 0%;
     }
   }
-
-body {
-  background-color: #242F3F;
-}
