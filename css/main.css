@@ -347,13 +347,13 @@ div.social {
     width: 60px;
     height: 34px;
   }
-  
+
   .switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
-  
+
   .slider {
     position: absolute;
     cursor: pointer;
@@ -365,7 +365,7 @@ div.social {
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+
   .slider:before {
     position: absolute;
     content: "";
@@ -377,25 +377,25 @@ div.social {
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+
   input:checked + .slider {
     background-color: #2196F3;
   }
-  
+
   input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
   }
-  
+
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
-  
+
   .slider.round {
     border-radius: 34px;
   }
-  
+
   .slider.round:before {
     border-radius: 50%;
   }
@@ -420,7 +420,7 @@ div.social {
     top: 50%;
     animation: loader 2s infinite ease;
   }
-  
+
   .loader-inner {
     vertical-align: top;
     display: inline-block;
@@ -428,51 +428,51 @@ div.social {
     background-color: #fff;
     animation: loader-inner 2s infinite ease-in;
   }
-  
+
   @keyframes loader {
     0% {
       transform: rotate(0deg);
     }
-    
+
     25% {
       transform: rotate(180deg);
     }
-    
+
     50% {
       transform: rotate(180deg);
     }
-    
+
     75% {
       transform: rotate(360deg);
     }
-    
+
     100% {
       transform: rotate(360deg);
     }
   }
-  
+
   @keyframes loader-inner {
     0% {
       height: 0%;
     }
-    
+
     25% {
       height: 0%;
     }
-    
+
     50% {
       height: 100%;
     }
-    
+
     75% {
       height: 100%;
     }
-    
+
     100% {
       height: 0%;
     }
   }
-  
+
   #topBtn {
 	display: none;
 	position: fixed;
@@ -488,4 +488,22 @@ div.social {
 	cursor: pointer;
 	padding: 10px;
 	border-radius: 4px;
+  }
+
+#topBtn:hover {
+  background-color: #ba8a09;
+}
+
+.subscribe button:hover {
+  background-color: #ba8a09;
+}
+
+  .btn-primary {
+    background-color: #c7940a !important;
+    border-color: #c7940a !important;
+  }
+
+  .btn-primary:hover {
+    background-color: #ba8a09 !important;
+    border-color: #ba8a09 !important;
   }

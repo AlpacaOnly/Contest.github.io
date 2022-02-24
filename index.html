@@ -10,8 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/main.css">
-  
-  
+
+
 
   <title>Contester</title>
 </head>
@@ -21,7 +21,7 @@
   <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
   </div>
-<button onclick="toTopFunction()" id="topBtn" title="Go to top">Top</button>
+  <button onclick="toTopFunction()" id="topBtn" title="Go to top">Top</button>
   <div id="first-section">
     <div class="container d-flex flex-column min-vh-100 justify-content-center">
       <h1 class="display-1">Welcome to contester!</h1>
@@ -37,7 +37,7 @@
 
   <div class="languages">
     <div class="language-title">
-        <h2 class="fw-bold font-normal text-gray-300 text-center mt-2 mb-2">To join you must first prove your skills. <br>Choose your language to begin...</h2>
+      <h2 class="fw-bold font-normal text-gray-300 text-center mt-2 mb-2">To join you must first prove your skills. <br>Choose your language to begin...</h2>
     </div>
     <div class="list-group d-inline-flex flex-row flex-wrap">
       <a href="#alerts" class="list-item col-3">C++</a>
@@ -120,14 +120,14 @@
     </div>
   </div>
 
-<script>
-$(document).ready(function(){
-    $('[data-bs-toggle="popover"]').popover();  
-});
-</script>
-<script type="text/javascript">
+  <script>
+    $(document).ready(function() {
+      $('[data-bs-toggle="popover"]').popover();
+    });
+  </script>
+  <script type="text/javascript">
 
-</script>
+  </script>
   <section id="news-section">
     <h2 class="news-header fw-bold">News</h2>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -140,7 +140,7 @@ $(document).ready(function(){
                 <h5 class="card-title">5G and Wi-Fi Combination from HPE GreenLake</h5>
                 <p class="card-text">Hewlett Packard Enterprise combines cellular and Wi-Fi to create private networks in the corporate, industrial, and government sectors.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#news1Modal">Read More</button>
-				  
+
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -266,129 +266,175 @@ $(document).ready(function(){
         width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy">
       </iframe>
 
-        <div class="column links">
-          <h3>Useful Links</h3>
+      <div class="column links">
+        <h3>Useful Links</h3>
 
-          <ul>
+        <ul>
 
-            <li>
-              <a href="#faq">F.A.Q</a>
-            </li>
-            <li>
-              <a href="#cookies-policy">Cookies Policy</a>
-            </li>
-            <li>
-              <a href="#terms-of-services">Terms Of Service</a>
-            </li>
-            <li>
-              <a href="#support">Support</a>
-            </li>
-          </ul>
+          <li>
+            <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+            <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li>
+            <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li>
+            <a href="#support">Support</a>
+          </li>
+        </ul>
 
-        </div>
-
-
-        <div class="column links">
-          <h3>Sponsors</h3>
-          <ul>
-            <li>
-              <a href="#faq">AITU</a>
-            </li>
-            <li>
-              <a href="#cookies-policy">Microsoft</a>
-            </li>
-            <li>
-              <a href="#terms-of-services">NVIDIA</a>
-            </li>
-            <li>
-              <a href="#support">IBM</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="column subscribe">
-          <h3>Newsletter</h3>
-          <div>
-            <input type="email" placeholder="Enter your email" />
-            <button>Subscribe</button>
-          </div>
-
-        </div>
-        <p> Copyright &copy; 2022 Contester. All rights reserved.</p>
       </div>
+
+
+      <div class="column links">
+        <h3>Sponsors</h3>
+        <ul>
+          <li>
+            <a href="#faq">AITU</a>
+          </li>
+          <li>
+            <a href="#cookies-policy">Microsoft</a>
+          </li>
+          <li>
+            <a href="#terms-of-services">NVIDIA</a>
+          </li>
+          <li>
+            <a href="#support">IBM</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column subscribe">
+        <h3>Newsletter</h3>
+        <div>
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </div>
+
+      </div>
+      <p> Copyright &copy; 2022 Contester. All rights reserved.</p>
+    </div>
 
   </footer>
 
   <script src="js/script.js"></script>
   <div class="modal" id="news1Modal">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">5G and Wi-Fi Combination from HPE GreenLake</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="fw-bold modal-title">5G and Wi-Fi Combination from HPE GreenLake</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="fw-bold modal-body">
+          <p>Hewlett Packard Enterprise combines cellular and Wi-Fi to create private networks in the corporate, industrial, and government sectors.</p>
+          <p>The company announced a new solution - HPE GreenLake Edge Cloud Platform with Aruba Air Pass technology.</p>
+
+          <p>Nowadays, many companies and enterprises are increasingly paying attention to private 5G networks. Such networks are characterized by low latency, good bandwidth and security, and are often used as an addition to a Wi-Fi network. While
+            5G is far superior to Wi-Fi in terms of coverage, Wi-Fi has its advantages when setting up indoor networks. With a solution that automates 5G and Wi-Fi roaming, customers can get the best of both worlds.</p>
+
+          <p>“The increase in data transfer creates countless new opportunities in many industries, but realizing these opportunities requires ultra-fast, stable and secure networking solutions,” said Tom Craig, vice president and general manager,
+            HPE Communications Technology Group. “With our leadership in both enterprise and cellular communications, we are the ideal partner to help clients build future-proof private networks designed for data-driven reality. HPE 5G and Aruba
+            Wi-Fi technology enable the creation of private networks that help streamline the work environment and give telcos new opportunities to grow their enterprise business.”</p>
+
+          <p>HPE GreenLake for Aruba is based on the HPE 5G Core Stack, an open cloud container project for the 5G core network. It has been supplemented with capabilities for private networks. For example. HPE Service Director, which facilitates
+            modularization and automation, includes a corporate self-service portal, allows for flexible configuration and change management. The service also provides advanced administration options for telecommunications companies.</p>
+
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button data-bs-dismiss="modal">Close</button>
+        </div>
+
       </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button data-bs-dismiss="modal">Close</button>
-      </div>
-
     </div>
   </div>
-</div>
-<div class="modal" id="news2Modal">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
+  <div class="modal" id="news2Modal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">TikTok. Security and user rights</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="fw-bold modal-title">TikTok. Security and user rights</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="fw-bold modal-body">
+          <p>The platform launched the Brand Protection Center.</p>
+          <p>An information portal dedicated to the safety of content creators and visitors to the portal, contains articles, messages about partnerships and other information related to the activities of brands and the transparency of the actions of
+            the video service itself. The site is divided into six main sections.</p>
+
+          <ul>
+            <li>Service mission</li>
+            <li>ads</li>
+            <li>Partners and Certifications</li>
+            <li>Service transparency</li>
+            <li>Success stories</li>
+            <li>Education</li>
+          </ul>
+
+          <p>The materials contained in it will help beginners to master the basic principles of creating content and give an idea of ​​the rules for using the service. Businesses will be interested to learn about the rules for advertising and
+            additional services offered to advertisers.</p>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="fw-bold modal-footer">
+          <button data-bs-dismiss="modal">Close</button>
+        </div>
+
       </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button data-bs-dismiss="modal">Close</button>
-      </div>
-
     </div>
   </div>
-</div>
-<div class="modal" id="news3Modal">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
+  <div class="modal" id="news3Modal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Vodafone, Parallel Wireless and Juniper Collaborate on Open RAN</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="fw-bold modal-title">Vodafone, Parallel Wireless and Juniper Collaborate on Open RAN</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="fw-bold modal-body">
+          <p>Juniper Networks, Vodafone and Parallel Wireless are testing a multi-vendor RAN Intelligent Controller (RIC) trial for carrier-specific access control use cases.</p>
+          <p>The Open Radio Access Network (Open RAN) concept is an initiative of the O-RAN Alliance, a non-profit organization founded by the world's largest mobile operators. The mission of the alliance is to develop open requirements, architecture
+            and a family of standards that describe the next generation radio access network (RAN).</p>
+
+          <p>The very paradigm of Open RAN is to create a family of open standards that allow telecom operators to move from relying on traditional vendors to a wide range of equipment manufacturers.</p>
+
+          <p>The goal of the current development team is to demonstrate the potential for providing open, flexible resource management and mobile data delivery in any software-driven RAN environment.</p>
+
+          <p>A trial version of RIC that supports O-RAN interfaces is being tested in Vodafone test labs in Turkey, but there are plans to port it to the test infrastructure.</p>
+
+          <p>More detail</p>
+          <p>The purpose of the trial is to provide more programmable, automated, granular traffic management for each user. Priority is given to access control capabilities tailored to the needs of tenants, that is, allowing operators to personalize
+            services.</p>
+
+          <p>Real-time monitoring and "enforcement" of radio resources across the RAN prioritizes critical users such as hospitals and schools using Juniper's rApp/xApp cloud-based software tools. They manage near-real-time network functions as well
+            as open source parallel wireless functions built in the cloud.</p>
+
+          <p>XApps and rApps will allow innovation - in the form of RAN control algorithms - to enter radio access networks orders of magnitude faster than today's proprietary systems. Such innovations will help operators create a differentiated
+            network experience that delivers performance tailored to specific service types, user groups or locations.</p>
+
+          <p>This approach is designed to manage, optimize, and automatically adapt services and applications using the RAN and is based on real-time data analysis based on native performance.</p>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button data-bs-dismiss="modal">Close</button>
+        </div>
+
       </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button data-bs-dismiss="modal">Close</button>
-      </div>
-
     </div>
   </div>
-</div>
 
 
 
