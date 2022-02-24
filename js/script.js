@@ -46,3 +46,16 @@ document.querySelector("#switch-toggler").addEventListener("click", toggle);
 $(window).on("load", function () {
   $(".loader-wrapper").fadeOut("slow");
 });
+
+var topButton = document.getElementById("topBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction () {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { topButton.style.display = "block"; }
+	else { topButton.style.display = "none"; }
+}
+
+function toTopFunction () {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}

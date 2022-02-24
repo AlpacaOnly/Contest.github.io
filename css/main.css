@@ -472,3 +472,20 @@ div.social {
       height: 0%;
     }
   }
+  
+  #topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	width: 10%;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #c7940a;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 4px;
+  }
