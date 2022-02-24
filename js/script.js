@@ -41,6 +41,8 @@ for (let i = 0; i < telegram_account_number; i++) {
     });
 }
 
+document.querySelector("#switch-toggler").addEventListener("click", toggle);
+
 $(window).on("load", function () {
   $(".loader-wrapper").fadeOut("slow");
 });
