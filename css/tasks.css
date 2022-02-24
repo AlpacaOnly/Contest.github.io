@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-a {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
 body {
   color: white;
 }
@@ -61,6 +56,20 @@ body {
   margin: 5px;
   width: 70%;
   margin-left: 100px;
+}
+
+.titled {
+  color:#3b5998;
+  font-size: 15px;
+}
+
+a:link {
+  color:#3b5998;
+}
+
+a:-webkit-any-link {
+    color: #3b5998;
+    cursor: pointer;
 }
 
 nav {
